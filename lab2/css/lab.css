@@ -7,3 +7,24 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  h1 {
+    color: rgb(97, 51, 115);
+    font-size: 200%;
+}
+
+p {
+    font-family: "Nunito";
+    text-indent: 20px;
+    margin-left: 10px;
+}
+
+#content {
+    background-color: rgb(237, 187, 251) ;
+    width: 500px;
+    min-height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: dashed 10px rgb(133, 169, 231) ;
+    font-size: 20px;
+}
