@@ -38,8 +38,8 @@ function callback(para){
 }
 
 callback(function(){
-    var x = window.prompt("Give a number for x:");
-    var y = window.prompt("Give a number for y:");
+    var x = 15
+    var y = 5
     division(x, y)
 })
 
