@@ -26,3 +26,21 @@ var results = randomArray.map(function(x){
 })
 // should return [7, 21, 26, 10, 63, 14]
 console.log("Adding 5 to each value of the array:", results);
+
+// bonus: create function that takes a callback as a parameter and runs it
+// learned how to do this through https://stackoverflow.com/questions/3458553/javascript-passing-parameters-to-a-callback-function
+function division(a, b){
+    divResult = a / b;
+}
+
+function callback(para){
+    para();
+}
+
+callback(function(){
+    var x = window.prompt("Give a number for x:");
+    var y = window.prompt("Give a number for y:");
+    division(x, y)
+})
+
+console.log("Dividing x by y:", divResult);
