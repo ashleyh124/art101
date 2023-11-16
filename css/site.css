@@ -44,4 +44,14 @@ ul {
   padding-left: 0;
   text-align: left;
 }
+
+.special {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 5px #9cb19d;
+  background-color: #f4defa;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
 /* burrowed code from https://stackoverflow.com/questions/5347833/centering-bullets-on-a-centered-list to figure out how to make centered list with left-aligned text */
