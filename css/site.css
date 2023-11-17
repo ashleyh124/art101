@@ -45,13 +45,34 @@ ul {
   text-align: left;
 }
 
-.special {
+/* referred to https://www.w3schools.com/cssref/sel_nth-child.php for alternating alignment of text*/
+/* referred to https://www.w3schools.com/css/css3_borders.asp for rounded corners*/
+
+.text:nth-child(even) { 
+  text-align: right;
+  clear:right; 
+  padding: 10px;
+  border: solid 2px #888;
+  border-radius: 20px 20px 5px 20px;
+  background-color: #f8edfc;
+  margin: 10px;
+}
+  
+  .text:nth-child(odd) { 
+  text-align: left;
+  clear:left; 
+  padding: 10px;
+  border: solid 2px #888;
+  border-radius: 20px 20px 20px 5px;
+  background-color: #f8edfc;
+  margin: 10px;
+  }
+  
+  .section {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 5px #9cb19d;
   background-color: #f4defa;
-  font-weight: bold;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
+  }
+  
 /* burrowed code from https://stackoverflow.com/questions/5347833/centering-bullets-on-a-centered-list to figure out how to make centered list with left-aligned text */
