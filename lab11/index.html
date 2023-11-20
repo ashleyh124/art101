@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This title is used for tabs and bookmarks -->
+    <title>Lab 11: JavaScript Events and Forms</title>
+
+    <!-- Use UTF character set, a good idea with any webpage -->
+    <meta charset="UTF-8" />
+    <!-- Set viewport so page remains consistently scaled w narrow devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+</head>
+<body>
+    <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+    <main id="content">
+        <section>
+            <h1>Lab 11: JavaScript Events and Forms</h1><br>
+            <li><a href="js/lab.js">Lab 11 Javascript</a></li>
+            <div id="output">
+                <input type="text" id="user-name" placeholder="Input your name">
+                <button id="submit">For randomized name</button>
+                <button id="anagram">For anagram</button>
+            </div>
+            <div class="special">
+                <div class="challenge">
+                        <h2>Challenge</h2>
+                        <p>The challenge of the lab is to experiment with JS events.</p>
+                </div>
+                <div class="problems">
+                        <h2>Problems</h2>
+                        <p>The problems we encountered during the lab was the CSS was not working but we realized we were using the wrong symbol for 
+                        the id "output". We used a period instead of a hashtag but fixed it so that the CSS would work in the button section.
+                        </p>
+                </div>
+                <div class="results">
+                        <h2>Results</h2>
+                        <p>We created a button that says "Submit" with a user input box. We added an event listener and JS events, so that when the user 
+                        type in their name and click the button, it will sort the name and randomize the letters positions to create a new name. 
+                        </p>
+                </div>
+            </div>
+        </section>
+        <nav id="links">
+            <!-- Put links to other pages (including the homepage) here. -->
+        </nav>
+    </main>
+</body>
+</html>

@@ -1,0 +1,9 @@
+#output {
+    text-align: center;
+    clear:center; 
+    padding: 10px;
+    border: solid 2px #888;
+    border-radius: 20px;
+    background-color: #f8edfc;
+    margin: 10px;
+} 

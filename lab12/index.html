@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This title is used for tabs and bookmarks -->
+    <title>Lab 12: Conditionals</title>
+
+    <!-- Use UTF character set, a good idea with any webpage -->
+    <meta charset="UTF-8" />
+    <!-- Set viewport so page remains consistently scaled w narrow devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+</head>
+<body>
+    <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+    <main id="content">
+        <section>
+            <h1>Lab 12: Conditionals</h1><br>
+            <li><a href="js/lab.js">Lab 12 Javascript</a></li>
+            <div id="output">
+                Please enter your name for sorting:
+                <input type="text" id="input" placeholder="">
+                <button id="button">Submit</button>
+            </div>
+            <div class="special">
+                <div class="challenge">
+                        <h2>Challenge</h2>
+                        <p>The challenge of the lab is to create a function that depends on conditionals.</p>
+                </div>
+                <div class="problems">
+                        <h2>Problems</h2>
+                        <p>The problems we encountered during the lab was the CSS originally creating two borders around the results.
+                            We found out that it was because of our previous CSS code, but when we changed it to a comment, it worked
+                            and only created one border.
+                        </p>
+                </div>
+                <div class="results">
+                        <h2>Results</h2>
+                        <p>We created a button that says "Submit" with a user input box. We added an event listener and JS events, so
+                           that when the user types in their name and click the button, it will take the length of their name and sort
+                           them into a Hogwarts house. Within the function, there is a condition that sorts the user into one of the
+                           four houses depending on the remainder of their name divided by 4.
+                        </p>
+                </div>
+            </div>
+        </section>
+        <nav id="links">
+            <!-- Put links to other pages (including the homepage) here. -->
+        </nav>
+    </main>
+</body>
+</html>
