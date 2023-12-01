@@ -44,6 +44,7 @@ ul {
   padding-left: 0;
   text-align: left;
 }
+
 .special {
   padding: 10px;
   margin-bottom: 10px;
@@ -82,12 +83,13 @@ ul {
 
 #output {
   text-align: center;
-  clear:center; 
+  clear: center; 
   padding: 10px;
   border: solid 2px #888;
-  border-radius: 20px;
+  border-radius: 20px;;
   background-color: #f8edfc;
   margin: 10px;
+  font-weight: bold;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 
@@ -98,4 +100,9 @@ ul {
   border: solid 5px #9cb19d;
   background-color: #f4defa;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.column{
+  column-count: 3;
+  column-gap: 40px;
 }

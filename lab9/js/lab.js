@@ -4,7 +4,7 @@
  * License: Public Domain
 */
 
-var bonusButton = $(".special-section").append("<button id='special-sections button'>Press for changes</button>");
+// var bonusButton = $(".special-section").append("<button id='special-sections button'>Press for changes</button>");
 
 // create a button for challenge
 var challengeButton = $(".challenge").append("<button id='challenge-button'>Press for challenge</button>");

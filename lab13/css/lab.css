@@ -1,0 +1,7 @@
+/* code referred to https://www.w3schools.com/css/css3_multiple_columns.asp
+*/
+  
+.column{
+    column-count: 3;
+    column-gap: 40px;
+}

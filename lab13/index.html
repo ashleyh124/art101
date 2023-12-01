@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 13: Loops</title>
+	<style>
+        /* Used help from ChatGPT to create colors for Fizz, Buzz, Boom, and Bang in the JS output */
+        .fizz {
+            color: blue;
+        }
+		.buzz {
+			color: green;
+		}
+		.boom {
+			color: purple;
+		}
+		.bang {
+			color: red;
+		}
+	</style>
+	<!-- Use UTF character set, a good idea with any webpage -->
+	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 13: Loops</h1><br>
+			<li><a href="js/lab.js">Lab 13 JavaScript</a></li>
+			<div id="output">
+				Input the maximum value:
+				<input type="number" id="max" placeholder="">
+				<button id="run">Run</button>
+			</div>
+			<div class="special">
+				<div class="challenge">
+						<h2>Challenge</h2>
+						<p>The challenge of the lab is to experiment with loops.</p>
+				</div>
+				<div class="problems">
+						<h2>Problems</h2>
+						<p>The problems we encountered during the lab was we couldn't add an exclamation point to only the 
+						number that is a multiple of 3, 5, and/or 7 at first. We tried to add an exclamation point to the 
+						output code and that doesn't work, so we experimented with the code and referred to the lecture and 
+						lab example. We realized we could use logic of checking the string is not equal to empty string and 
+						add an exclamation point that way.
+						</p>
+				</div>
+				<div class="results">
+						<h2>Results</h2>
+						<p>We created a Fizzbuzz() function that loop through 1 to 200 and print the number 
+						and a word if they are a multiple of 3, 5, and/or 7. It will print "Fizz" if it is a multiple of 3
+						and "Buzz" if it is a multiple of 5. It will print "Boom" if it is a multiple of 7 and combine the 
+						words into one string if it is a multiple of more than one condition.
+						</p>
+				</div>
+			</div>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>
