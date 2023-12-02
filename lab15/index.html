@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This title is used for tabs and bookmarks -->
+    <title>Lab 15: AJAX</title>
+
+    <!-- Use UTF character set, a good idea with any webpage -->
+    <meta charset="UTF-8" />
+    <!-- Set viewport so page remains consistently scaled w narrow devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+</head>
+<body>
+    <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+    <main id="content">
+        <section>
+            <h1>Lab 15: AJAX</h1><br>
+            <li><a href="js/lab.js">Lab 15 Javascript</a></li>
+            <div id="output">
+                <button id="activate">Activate</button>
+            </div>
+            <div class="special">
+                <div class="challenge">
+                        <h2>Challenge</h2>
+                        <p>The challenge of the lab is to experiment with jQuery and AJAX.</p>
+                </div>
+                <div class="problems">
+                        <h2>Problems</h2>
+                        <p>The problems we encountered during the lab was getting the AJAX to successfully get information from an external source.
+                            We orginally decided to use the Pokemon API, but since it had a lot of different information, we decided to go with an API
+                            that was simpler (the Fortune Cookie API). We also had problems with putting the correct operators like commas and exclamation
+                            marks in the right place in the code, but we were able to fix it.
+                        </p>
+                </div>
+                <div class="results">
+                        <h2>Results</h2>
+                        <p>We created a button that says "Activate" in our HTML. We then used jQuery to add an event listener to the button and created a
+                            function that calls on the AJAX to fetch the output from the Fortune Cookie API. If it is successful, the Javascript will return
+                            a fortune but if it is unsuccessful, the console would say that there is an error. To be able to click on the button, the user
+                            should have the Chrome extension "CORS Unblock" running on the website.
+                        </p>
+                </div>
+            </div>
+        </section>
+        <nav id="links">
+            <!-- Put links to other pages (including the homepage) here. -->
+        </nav>
+    </main>
+</body>
+</html>
