@@ -19,6 +19,7 @@ $("#activate").click(function(){
             $("#output").append("<p>" + text);
         },
         error: function(data) {
+            document.write("Error")
             console.log("Error")
         }
     })
