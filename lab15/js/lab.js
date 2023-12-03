@@ -12,7 +12,7 @@ $("#activate").click(function(){
     $.ajax({
         "url": ENDPOINT,
         "type": "GET",
-        "dataType": "json",
+        // "dataType": "json",
         success: function(data) {
             console.log(data.fortune)
             text = data.fortune
