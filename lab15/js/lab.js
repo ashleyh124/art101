@@ -12,15 +12,12 @@ $("#activate").click(function(){
     $.ajax({
         "url": ENDPOINT,
         "type": "GET",
-        // "dataType": "json",
-        success: function(data) {
-            console.log(data.fortune)
-            text = data.fortune
-            $("#output").append("<p>" + text);
-        },
-        error: function(data) {
-            console.log("Error")
-        }
+        "dataType": "json",
+    })
+    .done(function(data) {
+        console.log(data.fortune);
+        text = data.fortune;
+        $("#output").append("<p>" + text);
     })
 })
 
@@ -28,7 +25,15 @@ $("#activate").click(function(){
 
 
 
-
+//success: function(data) {
+            //console.log(data.fortune)
+            //text = data.fortune
+            //$("#output").append("<p>" + text);
+        // },
+        // error: function(data) {
+        //     console.log("Error")
+        // }
+    // })
 
 
 
