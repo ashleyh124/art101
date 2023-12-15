@@ -31,16 +31,16 @@
                         <h2>Problems</h2>
                         <p>The problems we encountered during the lab was getting the AJAX to successfully get information from an external source.
                             We orginally decided to use the Pokemon API, but since it had a lot of different information, we decided to go with an API
-                            that was simpler (the Fortune Cookie API). We also had problems with putting the correct operators like commas and exclamation
-                            marks in the right place in the code, but we were able to fix it.
+                            that was simpler (the Fortune Cookie API). We were able to get the Fortune Cookie API to work locally, but not globally. This
+                            might have been because there wasn't a https: secure API available. However, we were able to use the Yes or No? API successfully.
                         </p>
                 </div>
                 <div class="results">
                         <h2>Results</h2>
-                        <p>We created a button that says "Activate" in our HTML. We then used jQuery to add an event listener to the button and created a
-                            function that calls on the AJAX to fetch the output from the Fortune Cookie API. If it is successful, the Javascript will return
-                            a fortune but if it is unsuccessful, the console would say that there is an error. To be able to click on the button, the user
-                            should have the Chrome extension "CORS Unblock" running on the website.
+                        <p>We created a button that says "Answer" in our HTML, along with the text "Ask a yes or no question then click the button".
+                            We then used jQuery to add an event listener to the button and created a function that calls on the AJAX to fetch the
+                            output from the Yes or No? API. If it is successful, the Javascript will return either a Yes or a No, but if it is
+                            unsuccessful, the console would say that there is an error.
                         </p>
                 </div>
             </div>

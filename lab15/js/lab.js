@@ -6,7 +6,6 @@
 */
 
 const ENDPOINT = "http://www.yerkee.com/api/fortune";
-
 // attach an event listener
 $("#activate").click(function(){
     $.ajax({
